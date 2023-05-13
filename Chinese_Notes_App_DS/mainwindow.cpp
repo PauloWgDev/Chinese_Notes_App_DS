@@ -17,6 +17,7 @@ int var = 0;
 
 void MainWindow::on_pushButton_clicked()
 {
-    var = 1;
+    var += 1;
+    qDebug() << var;
 }
 
